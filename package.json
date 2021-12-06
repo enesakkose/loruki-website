@@ -1,0 +1,16 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel *.html",
+    "build": "parcel build *.html",
+    "build2": "parcel build *.html --public-url prod"
+  },
+  "devDependencies": {
+    "parcel":"^2.0.1",
+    "parcel-bundler": "^2.0.1",
+    "sass": "^1.44.0"
+  }
+}
