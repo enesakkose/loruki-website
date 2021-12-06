@@ -1,0 +1,40 @@
+.footer{
+    background: var(--dark-color);
+
+    .f-logo{
+        color: #fff;
+    }
+
+    nav{
+        ul{
+            li{
+                a{
+                   color: #fff; 
+                }
+                
+            }
+        }
+        
+    }
+
+    .social{
+        a{
+            margin: 0 10px;
+            color: #fff;
+
+            i{
+             transition: transform 200ms ;
+            &:hover{
+                transform: translateY(-7px);
+            }   
+        }
+            
+        }
+    }
+
+    @media (max-width: 768px) {
+        .grid{
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}

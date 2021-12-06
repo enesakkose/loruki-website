@@ -1,0 +1,18 @@
+.features-head{
+    background: var(--primary-color);
+
+    .xl{
+        font-size: 4rem;
+        color: #fff;
+    }
+
+    .lead{
+        font-size: 20px;
+        color: #fff;
+    }
+
+    img{
+        width: 200px;
+        justify-self: flex-end;
+    }
+}
