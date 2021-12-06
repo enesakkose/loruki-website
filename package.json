@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "parcel *.html",
     "build": "parcel build *.html",
-     "build": "parcel build --output public",
     "build2": "parcel build *.html --public-url prod"
   },
   "devDependencies": {
